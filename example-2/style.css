@@ -56,6 +56,11 @@ a.fb{
 
 nav ul.social{
   flex: 1 1 0;
+  display: flex;
+}
+
+nav ul.social li{
+  flex: 1 1 0;
 }
 
 /* flex styles */
@@ -73,6 +78,10 @@ nav li{
 nav{
   display: flex;
   justify-content: space-between;
+}
+
+.social{
+  margin: 0;
 }
 } /* end media 768 */
 

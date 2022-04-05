@@ -57,11 +57,11 @@
       </section> 
     </div>
     <script>
-     $("stack").on("click", function(){
+     $("a.stack").on("click", function(){
        $("article").addClass("stack");
      })
-     $("stack").on("click", function(){
-       $("article").remove("stack");
+     $("a.grid").on("click", function(){
+       $("article").removeClass("stack");
      })
     </script>
   </body>
